@@ -1,4 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Indie+Flower&family=Kaushan+Script&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&family=Sofia&display=swap');
 /* General page styles */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -12,17 +14,21 @@ p{
 h1,h2,h3 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: darkblue
+    
 }
 
 .border {
     border: 5px ridge palevioletred;
+    margin: 2%;
+    Padding: 5px;
+    
 }
 
 li{
     color: rgb(95, 0, 189)
 }
 
-h1 {
+h1,h2,h3 {
     text-align: center;
     margin: 2%;
     padding: 5px;
@@ -33,3 +39,15 @@ h1 {
     margin: auto;
     text-align: center;
 }
+
+h1,h2,h3 {
+    font-family: Anton, Static;
+    }
+
+    li{
+font-family: Kaushan Script, Static;
+    }
+
+    p{
+        font-family: Sofia, Static;
+    }
